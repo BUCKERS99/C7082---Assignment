@@ -279,18 +279,3 @@ models for plant disease identification. Computers and Electronics in Agricultur
 Yoo, H.J., 2015. Deep convolution neural networks in computer vision: a review. IEIE Transactions on
 Smart Processing and Computing, 4(1), pp.35-43.
 
-# Files 
-[PDF of report](https://github.com/BUCKERS99/C7082---Assignment/blob/main/17239400_C7082.pdf)
-
-[Model coding](https://github.com/BUCKERS99/C7082---Assignment/blob/main/C7082_assignment_coding.ipynb)
-
-[Image folder creation coding](https://github.com/BUCKERS99/C7082---Assignment/blob/main/Train_test_val_folder_coding.ipynb)
-
-[Image renaming coding](https://github.com/BUCKERS99/C7082---Assignment/blob/main/C7082_file_rename_coding.ipynb)
-
-[Plots folder](https://github.com/BUCKERS99/C7082---Assignment/tree/main/Plots)
-
-[Images folder](https://github.com/BUCKERS99/C7082---Assignment/tree/main/Images)
-
-[Potato leaf images for analysis](https://github.com/BUCKERS99/C7082---Assignment/tree/main/potato_leaf_pics)
-
