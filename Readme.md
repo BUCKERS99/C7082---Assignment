@@ -12,17 +12,19 @@ for secure food production in the future is important if we are to supply the in
 modification (GM) currently not an option in the UK, a line of potatoes with full resistance to blight would
 not be available for at least 30 years due to the time it takes to breed in a gene (Ceccarelli, 2015; Haverkort
 et al., 2009).
-There have been observations of reduced efficacy in the chemical control of blight when using active ingredients such as fluazinam (Schepers et al., 2018). This can be attributed to the overuse of a chemical strategy
-and a build-up of resistance in the fungus. The active ingredients used in the control of blight has deadly
+
+There have been observations of reduced efficacy in the chemical control of blight when using active ingredients such as fluazinam (Schepers et al., 2018). This can be attributed to the overuse of a chemical strategy and a build-up of resistance in the fungus. The active ingredients used in the control of blight has deadly
 and long-lasting effects on the environment and is highly toxic to humans (EFSA, 2008). It has been seen
 to cause severe damage to aquatic habitats and this can easily occur in the UK where chemical are applied
 in adverse conditions and creates run-off.
+
 For the reasons of environmental sustainability and with the cost of applications adversely affecting the
 producers’ profit margins, the implementation of blight recognition using a machine learning technique
 could provide a future proof, precision application method of blight control. For example, the adaption of
 a drone to carry out fungicide application with a camera attached to recognise plants that have a blight
 infection could reduce the amount of fungicide used, increasing profit margins, and prevent the field wide
 application of the pesticide which will reduce the chance of run-off.
+
 As the data set used in this assignment is made up of images, the decision was made to use Convolutional
 Neural Networks (CNN) to analyse and classify the images. CNNs have been proven in their use for classification tasks and provide a high accuracy, when tuned correctly, on validation data sets (Yoo, 2015). The objectives of this assignment are:
 
@@ -84,6 +86,7 @@ The images were rescaled to 255x255 and were inputted into the model as red, gre
 the same for all the initial run of the models. The layers were frozen to prevent each layer being updated
 during the training of the model. To save on computing power and time, 10 epochs were chosen with 50
 steps per epoch.
+
 A training accuracy of 98.4% and a validation accuracy of 80.1% was recorded after the initial running of
 the model.
 
@@ -106,6 +109,7 @@ inception layer where each layer’s output is filtered into the input of the ne
 
 This has a negative effect of increasing the computational power needed to run the model, but should, in
 theory increase the accuracy.
+
 A training accuracy of 76.9% and a validation accuracy of 68.6% was achieved using the inception pre-trained
 model with the same number of epochs and steps per epoch as the previous models. As the inception v3
 model achieved the lowest overall accuracy, it was taken forward and tuned to see if it could meet, or exceed,
