@@ -192,8 +192,88 @@ model was 85.9%.
 | Tune 5     | 90.9                  | 85.1                    |
 | Tune 6     | 87.5                  | 83.8                    |
 | Tune 7     | 96.7                  | 85.9                    |
-|            |                       |                         |
 
+# Discussion
+The accuracies and results gained from running the models show that there is room for improvement. The
+challenge of using the worst performing model allows for the next step of using the best original model and
+improving it to as close to 100% accuracy as possible. The idea that models can be adapted to give a higher
+accuracy shows that the solution to applying a machine learning technique to real world problems is not a
+one-size fits all solution and parameters need to be changed and tweaked to achieve the best results.
+
+In regard to the topic of this assignment, P. infestans and A. solani, this is a real-world problem given that
+the genetic manipulation of traits is not an option in the UK and conventional breeding will take years to
+get the same standard of immunity. As illustrated in the background section of this report, food security is
+an outstanding issue as the potato is one of the main food sources for developed and developing countries
+(Bailey et al., 2015). As shown by history, blight as a disease has the potential to cause large scale disruption
+to the supply of potatoes.
+
+With this in mind, our results are not able to be used in a commercial setting (Too et al., 2019) as the
+accuracies are too low for it to be taken forward and used in a field scale trial. With automation comes some
+ethical concerns around the allowance of an unmanned vehicle spraying potentially dangerous chemicals. For
+environmental reasons the accuracy for it to be allowed to operate would have to increase to around the 99%
+mark. There is great potential for deep learning to be used in conjunction with precision agriculture, as it
+could have the ability to reduce pesticide use, with the identification of specific areas that require spraying
+(Melland et al., 2016). It also has the potential to increase the environmental sustainability of the production
+of potatoes; the correct identification of a disease and the subsequent treatment being applied to a small,
+specific area can prevent over-dosing and reduce run-off of chemical into water systems.
+
+In conclusion, the implementation of deep learning into the agricultural sector has the potential for huge
+increases in environmental and economic sustainability. With the world population increasing, food security
+is paramount to both developed and developing countries and methods of identification using computer
+vision could revolutionise the industry. It is necessary however for a higher accuracy than the one recorded
+during this report to minimise misclassification.
+
+# References
+Bailey, R.L., West Jr, K.P. and Black, R.E., 2015. The epidemiology of global micronutrient deficiencies.
+Annals of Nutrition and Metabolism, 66(Suppl. 2), pp.22-33.
+
+Ceccarelli, S., 2015. Efficiency of plant breeding. Crop Science, 55(1), pp.87-97.
+
+Chollet, F., 2017. Xception: Deep learning with depthwise separable convolutions. In Proceedings of the
+IEEE conference on computer vision and pattern recognition (pp. 1251-1258).
+
+Cohen, J.E., 2001, June. World population in 2050: assessing the projections. In Conference Series-Federal
+Reserve Bank of Boston (Vol. 46, pp. 83-113). Federal Reserve Bank of Boston; 1998.
+
+Denton, E., Hanna, A., Amironesei, R., Smart, A. and Nicole, H., 2021. On the genealogy of machine
+learning datasets: A critical history of ImageNet. Big Data & Society, 8(2), p.20539517211035955.
+
+European Food Safety Authority (EFSA), 2008. Conclusion regarding the peer review of the pesticide risk
+assessment of the active substance fluazinam. EFSA Journal, 6(7), p.137r.
+
+Haverkort, A.J., Struik, P.C., Visser, R.G.F. and Jacobsen, E.J.P.R., 2009. Applied biotechnology to combat
+late blight in potato caused by Phytophthora infestans. Potato Research, 52(3), pp.249-264.
+
+Kaggle. 2021a. Potato leaf disease detection. [Online]. Available from: https://www.kaggle.com/
+sayannath235/potato-leaf-disease-detection/metadata [Accessed on 01/01/2022].
+
+Kaggle. 2021b. potato disease leaf dataset (PLD). [Online]. Available from: https://www.kaggle.com/
+rizwan123456789/potato-disease-leaf-datasetpld/metadata [Accessed on 01/01/2022].
+
+Leesutthiphonchai, W., Vu, A.L., Ah-Fong, A.M. and Judelson, H.S., 2018. How does Phytophthora infestans
+evade control efforts? Modern insight into the late blight disease. Phytopathology, 108(8), pp.916-924.
+
+Melland, A.R., Silburn, D.M., McHugh, A.D., Fillols, E., Rojas-Ponce, S., Baillie, C. and Lewis, S., 2016.
+Spot spraying reduces herbicide concentrations in runoff. Journal of agricultural and food chemistry, 64(20),
+pp.4009-4020.
+
+O’Neill, J.R., 2009. Irish potato famine. ABDO.
+
+Rangarajan, A.K. and Purushothaman, R., 2020. Disease classification in eggplant using pre-trained VGG16
+and MSVM. Scientific reports, 10(1), pp.1-11.
+
+Schepers, H.T.A.M., Kessel, G.J.T., Lucca, F., Förch, M.G., Van Den Bosch, G.B.M., Topper, C.G. and
+Evenhuis, A., 2018. Reduced efficacy of fluazinam against Phytophthora infestans in the Netherlands.
+European journal of plant pathology, 151(4), pp.947-960.
+
+Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J. and Wojna, Z., 2015. Rethinking the inception architecture
+for computer vision. 2015. arXiv preprint arXiv:1512.00567.
+
+Too, E.C., Yujian, L., Njuki, S. and Yingchun, L., 2019. A comparative study of fine-tuning deep learning
+models for plant disease identification. Computers and Electronics in Agriculture, 161, pp.272-279.
+
+Yoo, H.J., 2015. Deep convolution neural networks in computer vision: a review. IEIE Transactions on
+Smart Processing and Computing, 4(1), pp.35-43.
 
 # Files 
 [PDF of report](https://github.com/BUCKERS99/C7082---Assignment/blob/main/17239400_C7082.pdf)
